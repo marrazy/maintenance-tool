@@ -1,0 +1,17 @@
+[project]
+name = "maintenance-tool"
+version = "0.0.1"
+description = "Simple equipment maintenance tool."
+readme = "README.md"
+authors = [
+    { name = "Arzy", email = "fatih.arrazy@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+maintenance-tool = "maintenance_tool:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
